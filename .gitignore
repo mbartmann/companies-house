@@ -1,2 +1,5 @@
 companies-house.yml
-pkg
+*.gem
+.bundle
+Gemfile.lock
+pkg/*

@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'lib/companies_house'
+require 'bundler'
+Bundler::GemHelper.install_tasks
 
 begin
   require 'spec'
